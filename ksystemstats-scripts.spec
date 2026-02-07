@@ -4,7 +4,7 @@ Release:        1%{?dist}
 Summary:        Custom sensors plugin for KDE System Monitor via text streams
 
 License:        GPL-3.0-or-later
-URL:            https://github.com/itotm/ksystemstats_scripts#
+URL:            https://github.com/itotm/ksystemstats_scripts
 Source0:        %{url}/archive/v%{version}/ksystemstats_scripts-%{version}.tar.gz
 
 BuildRequires:  cmake >= 3.16
@@ -53,5 +53,5 @@ scripts when they are added, modified, or enabled/disabled.
 %{_qt6_plugindir}/ksystemstats/ksystemstats_plugin_scripts.so
 
 %changelog
-* Wed Feb 04 2026 - 1.0-1
+* Sat Feb 07 2026 - 1.0-1
 - Initial package for COPR

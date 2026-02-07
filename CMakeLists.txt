@@ -3,7 +3,7 @@
 
 cmake_minimum_required(VERSION 3.16)
 
-set(PROJECT_VERSION "2.0")
+set(PROJECT_VERSION "1.0")
 project(ksystemstats_scripts VERSION ${PROJECT_VERSION})
 
 set(KSYSGUARD_MIN_VERSION "6.2.90")

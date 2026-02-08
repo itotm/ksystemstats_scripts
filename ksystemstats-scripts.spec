@@ -21,6 +21,7 @@ BuildRequires:  cmake(KF6I18n) >= 6.10.0
 
 # KSysGuard dependency
 BuildRequires:  libksysguard-devel >= 6.2.90
+BuildRequires:  lm_sensors-devel
 
 Requires:       kf6-filesystem
 Requires:       ksystemstats >= 6.2.90
@@ -49,7 +50,7 @@ scripts when they are added, modified, or enabled/disabled.
 
 %files
 %license LICENSE.txt
-%doc README.md example.py example.sh
+%doc README.md examples/
 %{_qt6_plugindir}/ksystemstats/ksystemstats_plugin_scripts.so
 
 %changelog
